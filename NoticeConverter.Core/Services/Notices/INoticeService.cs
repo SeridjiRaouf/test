@@ -6,5 +6,7 @@ namespace NoticeConverter.Core.Services.Notices
     public interface INoticeService
     {
         List<Notice> GetNotices();
+
+        int GetCount();
     }
 }
