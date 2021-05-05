@@ -7,6 +7,14 @@ namespace NoticeConverter.Core.Services.Notices
     {
         List<Notice> GetNotices();
 
+        List<Notice> FindNotices(string isbn, string titre, string auteur);
+
+        Notice GetByCote(string Cote);
+
+        Notice GetByIsbn(string Isbn);
+
         int GetCount();
+
+        void CreateNotice(Notice notice);
     }
 }

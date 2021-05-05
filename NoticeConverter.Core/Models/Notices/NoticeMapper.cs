@@ -13,6 +13,7 @@ namespace NoticeConverter.Core.Models.Notices
                 ISBN = (string)row["ISBN"],
                 Titre = (string)row["Titre"],
                 Auteur = (string)row["Auteur"],
+                Editeur = (string)row["Editeur"],
                 Pages = (int)row["Pages"]
             };
         }
